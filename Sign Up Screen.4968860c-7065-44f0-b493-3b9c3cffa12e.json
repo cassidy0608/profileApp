@@ -57,6 +57,39 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "4968860c-7065-44f0-b493-3b9c3cffa12e",
+                "Y": -2.7734375,
+                "RelativeX": 0,
+                "RelativeY": -3,
+                "position": "absolute",
+                "edgeOffsets": {
+                    "left": "10.533333333333333%",
+                    "top": "0%"
+                },
+                "style": {
+                    "position": "absolute",
+                    "left": "10.533333333333333%",
+                    "top": "0%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "caa62ace-57d9-4021-acd0-d1d28cfc8b78",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner2"
+        },
+        {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
@@ -756,13 +789,13 @@
             "properties": {
                 "Picture": "cassidygram-low-resolution-logo-color-on-transparent-background.png",
                 "resizeMode": "stretch",
-                "Height": 92,
-                "Width": 111,
+                "Height": 38,
+                "Width": 68,
                 "Visible": true,
-                "X": 244,
-                "Y": 0,
-                "RelativeX": 244,
-                "RelativeY": 0,
+                "X": 293,
+                "Y": 68,
+                "RelativeX": 293,
+                "RelativeY": 68,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -789,7 +822,7 @@
                 "capInsets": {},
                 "ParentId": "4968860c-7065-44f0-b493-3b9c3cffa12e",
                 "position": "absolute",
-                "edgeOffsets": 0
+                "edgeOffsets": 68
             },
             "children": [],
             "id": "6a673cdf-8de3-4634-baf6-900a11cacc63",
